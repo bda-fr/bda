@@ -11,18 +11,18 @@ h1 {
   margin-top: 20px;
 }
 
-#edit-form {
+#edit-form, #create-form {
   display: flex;
   flex-direction: column;
 }
 
-#edit-form input, #edit-form textarea {
+#edit-form input, #edit-form textarea, #create-form input, #create-form textarea {
   margin-bottom: 10px;
   padding: 10px;
   font-size: 16px;
 }
 
-#edit-form button {
+#edit-form button, #create-form button {
   padding: 10px;
   font-size: 16px;
   background-color: #007bff;
